@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 from sklearn.neighbors import LocalOutlierFactor
 
-
 np.random.seed(42)
 df = pd.read_csv('blobs_80.csv')
 data = df.values
